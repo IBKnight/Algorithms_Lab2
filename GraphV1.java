@@ -79,7 +79,7 @@ public class GraphV1 {
             nextIndex = graph.getNext(from, nextIndex);
 
         }
-        from.mark = 2;
+        from.mark = 0;
         cycles.remove(from);
 
     }
